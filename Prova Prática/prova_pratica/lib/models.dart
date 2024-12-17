@@ -9,7 +9,6 @@ class Item {
     required this.description,
   });
 
-  // Método para criar um Item a partir de um JSON
   factory Item.fromJson(Map<String, dynamic> json) {
     return Item(
       id: json['id'],
